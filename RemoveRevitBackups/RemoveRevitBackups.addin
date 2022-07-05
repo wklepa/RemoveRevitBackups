@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command RemoveRevitBackups</Text>
+    <Description>Some description for RemoveRevitBackups</Description>
+    <Assembly>RemoveRevitBackups.dll</Assembly>
+    <FullClassName>RemoveRevitBackups.cmdRemoveRevitBackups</FullClassName>
+    <ClientId>12C92533-8841-47E5-9AEE-8B03B2BBAE91</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application RemoveRevitBackups</Name>
+    <Assembly>RemoveRevitBackups.dll</Assembly>
+    <FullClassName>RemoveRevitBackups.App</FullClassName>
+    <ClientId>5306A3F2-648D-4E6D-9F9E-705B18F21BC6</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
